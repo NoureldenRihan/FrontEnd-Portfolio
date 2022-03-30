@@ -412,13 +412,13 @@ button {
 
 @media (max-width: 767px) {
   .project .data-overlay h4 {
-    font-size: 17px;
+    font-size: 12px;
   }
   .project .data-overlay h4.title {
-    font-size: 22px;
+    font-size: 17px;
   }
   .project .data-overlay h2 {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
