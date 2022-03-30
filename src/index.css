@@ -190,6 +190,15 @@ button {
   }
 }
 
+@media (max-width: 767px) {
+  .landing h1 {
+    font-size: 50px;
+  }
+  .landing h4 {
+    font-size: 23px;
+  }
+}
+
 /* End Landing.jsx */
 /* Start Skills.jsx */
 
@@ -314,7 +323,7 @@ button {
 .projects .projects-area {
   padding: 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
