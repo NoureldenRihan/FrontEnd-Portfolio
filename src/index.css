@@ -322,9 +322,27 @@ button {
 
 .projects .projects-area {
   padding: 10px;
+}
+
+.projects .g3 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+}
+
+.projects .g2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .projects .g3,
+  .projects .g2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
 }
 
 /* End Projects.jsx */

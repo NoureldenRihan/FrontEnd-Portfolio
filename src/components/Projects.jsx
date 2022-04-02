@@ -30,6 +30,14 @@ class Projects extends Component {
           link: "https://noureldenrihan2002.github.io/Pizza-Restaurant-Website",
           img: "/images/Pizza.PNG",
         },
+        {
+          id: 4,
+          title: "Weather Daily",
+          desc: "Weather Daily website",
+          techs: "HTML5, CSS3, JS, API, Firebase",
+          link: "https://weather--daily.web.app",
+          img: "/images/Weather-Daily.PNG",
+        },
       ],
     };
   }
@@ -47,7 +55,13 @@ class Projects extends Component {
             <h2>Selected Projects.</h2>
             <p>Previous projects that i've worked on.</p>
           </div>
-          <div className="projects-area">
+          <div
+            className={
+              this.state.projectData.length % 2 === 0
+                ? " projects-area g2"
+                : " projects-area g3"
+            }
+          >
             {this.state.projectData.map((project) => (
               <Project
                 key={project.id}
