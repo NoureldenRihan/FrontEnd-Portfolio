@@ -28,8 +28,8 @@ class Skills extends Component {
         },
         {
           id: 5,
-          icon: <i className="icon devicon-python-plain"></i>,
-          name: "Python",
+          icon: <i class="icon devicon-nextjs-original-wordmark"></i>,
+          name: "NextJS",
         },
         {
           id: 6,
