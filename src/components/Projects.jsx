@@ -16,6 +16,14 @@ class Projects extends Component {
         },
         {
           id: 2,
+          title: "GemGlobe",
+          desc: "GemGlobe Instagram Clone",
+          techs: "JS, SCSS, NextJS, JSX, Vercel",
+          link: "https://gemglobe.vercel.app",
+          img: "/images/GemGlobe.png",
+        },
+        {
+          id: 3,
           title: "RihanCGI",
           desc: "3D Sculpting tools website",
           techs: "HTML5, CSS3, JS, Bootstrap, Firebase",
@@ -23,7 +31,7 @@ class Projects extends Component {
           img: "/images/RihanCGI.PNG",
         },
         {
-          id: 3,
+          id: 4,
           title: "Pizza",
           desc: "Pizza restaurant website",
           techs: "HTML5, CSS3, JS, API, NodeJS, Github",
@@ -31,7 +39,7 @@ class Projects extends Component {
           img: "/images/Pizza.PNG",
         },
         {
-          id: 4,
+          id: 5,
           title: "Weather Daily",
           desc: "Weather Daily website",
           techs: "HTML5, CSS3, JS, API, Firebase",
