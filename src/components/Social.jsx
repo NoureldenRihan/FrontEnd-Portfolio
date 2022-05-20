@@ -15,8 +15,8 @@ class Social extends Component {
         <a href="https://github.com/NoureldenRihan2002">
           <i className="devicon-github-original"></i>
         </a>
-        <a href="https://www.facebook.com/Nour.Rihan.2020">
-          <i className="devicon-facebook-plain"></i>
+        <a href="https://www.linkedin.com/in/noureldenrihan/">
+          <i className="devicon-linkedin-plain"></i>
         </a>
       </div>
     );
