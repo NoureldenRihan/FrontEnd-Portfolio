@@ -60,8 +60,8 @@ class Projects extends Component {
             data-aos-delay="300"
             data-aos-duration="1200"
           >
-            <h2>Selected Projects.</h2>
-            <p>Previous projects that i've worked on.</p>
+            <h2>Projects</h2>
+            <p>Websites i made</p>
           </div>
           <div
             className={
