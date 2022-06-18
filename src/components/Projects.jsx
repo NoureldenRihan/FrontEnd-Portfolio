@@ -44,7 +44,7 @@ class Projects extends Component {
           desc: "Weather Daily website",
           techs: "HTML5, CSS3, JS, API, Firebase",
           link: "https://weather--daily.web.app",
-          img: "/images/Weather-Daily.PNG",
+          img: "/images/Weather-Daily.png",
         },
       ],
     };
