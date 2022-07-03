@@ -18,7 +18,7 @@ class Footer extends Component {
         data-aos-offset="0"
       >
         <div className="container">
-          <h1>Nourelden Rihan Web Development Portofolio</h1>
+          <h1>Nourelden Rihan Frontend Web Portofolio</h1>
           <Social />
         </div>
       </footer>

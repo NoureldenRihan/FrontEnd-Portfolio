@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Resume from "./Resume";
 import Social from "./Social";
 
 class About extends Component {
@@ -31,17 +32,18 @@ class About extends Component {
           >
             <div className="section-heading">
               <h2>A little more about Nourelden</h2>
-              <p>3D Modelling Hobbyist & Frontend Developer</p>
+              <p>Frontend Web Developer</p>
             </div>
             <div className="about-text">
               <p>
-                Creative & Enthusiastic Egyptain interested in Web Development,
-                3D & Video Games.
+                Experienced with building Websites using modern Technologies as
+                ReactJS, NextJS etc.
               </p>
               <p>
                 Along side Medical School, Learning different hobbies has always
                 been a thrill and i am always ready for a new Adventure.
               </p>
+              <Resume />
             </div>
           </div>
         </div>

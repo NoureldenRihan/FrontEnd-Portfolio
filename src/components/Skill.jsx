@@ -12,7 +12,7 @@ class Skill extends Component {
         className="skill-area"
         data-aos="fade-up"
         data-aos-delay={this.props.id * 100 + 200}
-        data-aos-duration="1200"
+        data-aos-duration="800"
       >
         <div className="skill">
           {this.props.icon}

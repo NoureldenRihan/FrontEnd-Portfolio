@@ -8,18 +8,18 @@ class Skills extends Component {
       skills: [
         {
           id: 1,
-          icon: <i className="icon devicon-javascript-plain"></i>,
-          name: "JavaScript",
+          icon: <i className="icon devicon-nextjs-original-wordmark"></i>,
+          name: "NextJS",
         },
         {
           id: 2,
-          icon: <i className="icon devicon-css3-plain-wordmark"></i>,
-          name: "CSS3",
+          icon: <i className="icon devicon-react-original"></i>,
+          name: "ReactJS",
         },
         {
           id: 3,
-          icon: <i className="icon devicon-html5-plain-wordmark"></i>,
-          name: "HTML5",
+          icon: <i className="icon devicon-javascript-plain"></i>,
+          name: "JavaScript",
         },
         {
           id: 4,
@@ -28,13 +28,13 @@ class Skills extends Component {
         },
         {
           id: 5,
-          icon: <i class="icon devicon-nextjs-original-wordmark"></i>,
-          name: "NextJS",
+          icon: <i className="icon devicon-html5-plain-wordmark"></i>,
+          name: "HTML5",
         },
         {
           id: 6,
-          icon: <i className="icon devicon-nodejs-plain-wordmark"></i>,
-          name: "NodeJS",
+          icon: <i className="icon devicon-css3-plain-wordmark"></i>,
+          name: "CSS3",
         },
         {
           id: 7,
@@ -43,8 +43,8 @@ class Skills extends Component {
         },
         {
           id: 8,
-          icon: <i className="icon devicon-react-original"></i>,
-          name: "React",
+          icon: <i className="icon devicon-sass-original"></i>,
+          name: "SASS",
         },
       ],
     };
@@ -60,7 +60,7 @@ class Skills extends Component {
             data-aos-delay="200"
             data-aos-duration="1000"
           >
-            <h2>What things i am Skilled at...</h2>
+            <h2>Skills</h2>
             <p>Programming Languages and Frameworks i am skilled with.</p>
           </div>
           <div className="skills-area">
