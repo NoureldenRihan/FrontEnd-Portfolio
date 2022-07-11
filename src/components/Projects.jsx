@@ -12,6 +12,7 @@ class Projects extends Component {
           desc: "Watches brand website",
           techs: "HTML5, CSS3, JS, React, Redux, Netlify",
           link: "https://ultra-brand.netlify.app",
+          github: "https://github.com/NoureldenRihan2002/Ultra-Brand",
           img: "/images/Ultra-Brand.PNG",
         },
         {
@@ -20,6 +21,7 @@ class Projects extends Component {
           desc: "GemGlobe Instagram Clone",
           techs: "JS, SCSS, NextJS, JSX, Vercel",
           link: "https://gemglobe.vercel.app",
+          github: "https://github.com/NoureldenRihan2002/GemGlobe",
           img: "/images/GemGlobe.png",
         },
         {
@@ -28,6 +30,7 @@ class Projects extends Component {
           desc: "3D Sculpting tools website",
           techs: "HTML5, CSS3, JS, Bootstrap, Firebase",
           link: "https://rihan-cgi.web.app",
+          github: "",
           img: "/images/RihanCGI.PNG",
         },
         {
@@ -36,6 +39,8 @@ class Projects extends Component {
           desc: "Pizza restaurant website",
           techs: "HTML5, CSS3, JS, API, NodeJS, Github",
           link: "https://noureldenrihan2002.github.io/Pizza-Restaurant-Website",
+          github:
+            "https://github.com/NoureldenRihan2002/Pizza-Restaurant-Website",
           img: "/images/Pizza.PNG",
         },
         {
@@ -44,6 +49,7 @@ class Projects extends Component {
           desc: "Weather Daily website",
           techs: "HTML5, CSS3, JS, API, Firebase",
           link: "https://weather--daily.web.app",
+          github: "https://github.com/NoureldenRihan2002/Weather-Daily",
           img: "/images/Weather-Daily.png",
         },
       ],
@@ -64,11 +70,12 @@ class Projects extends Component {
             <p>Websites i made</p>
           </div>
           <div
-            className={
-              this.state.projectData.length % 2 === 0
-                ? " projects-area g2"
-                : " projects-area g3"
-            }
+            // className={
+            //   this.state.projectData.length % 2 === 0
+            //     ? " projects-area g2"
+            //     : " projects-area g3"
+            // }
+            className="projects-area g2"
           >
             {this.state.projectData.map((project) => (
               <Project
@@ -78,6 +85,7 @@ class Projects extends Component {
                 desc={project.desc}
                 techs={project.techs}
                 link={project.link}
+                github={project.github}
                 img={project.img}
               />
             ))}

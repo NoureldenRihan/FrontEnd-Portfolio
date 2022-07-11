@@ -416,6 +416,34 @@ button {
   font-size: 20px;
 }
 
+.project .data-overlay .buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 20%;
+}
+
+.project .data-overlay .buttons .githubLink button,
+.project .data-overlay .buttons .websiteLink button {
+  padding: 10px 20px;
+  color: var(--common-color);
+  background-color: transparent;
+  border: 3px solid var(--common-color);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 9999px;
+  outline: 0;
+  transition: var(--low-transition);
+}
+
+.project .data-overlay .buttons .githubLink button:hover,
+.project .data-overlay .buttons .websiteLink button:hover {
+  background-color: var(--common-color);
+  color: var(--main-alt-color);
+}
+
 .project:hover .data-overlay {
   opacity: 1;
 }
@@ -450,6 +478,10 @@ button {
 }
 
 @media (max-width: 767px) {
+  .project .data-overlay {
+    padding: 7px;
+  }
+
   .project .data-overlay h4 {
     font-size: 12px;
   }
@@ -458,6 +490,19 @@ button {
   }
   .project .data-overlay h2 {
     font-size: 14px;
+  }
+
+  .project .data-overlay .buttons {
+    display: block;
+    padding: 0;
+  }
+
+  .project .data-overlay .buttons .githubLink button,
+  .project .data-overlay .buttons .websiteLink button {
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 3px;
   }
 }
 
