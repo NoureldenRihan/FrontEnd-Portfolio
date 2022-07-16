@@ -5,7 +5,10 @@ class Resume extends Component {
   render() {
     return (
       <div className="resume-holder">
-        <a href="Nourelden Rihan Resume.pdf" download="Nourelden Rihan Resume">
+        <a
+          href="Nourelden_Rihan_Frontend_Resume.pdf"
+          download="Nourelden Rihan Frontend Resume"
+        >
           <button
             className="resume"
             data-aos="fade-in"
