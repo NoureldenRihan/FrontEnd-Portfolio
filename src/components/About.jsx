@@ -32,7 +32,7 @@ class About extends Component {
           >
             <div className="section-heading">
               <h2>A little more about Nourelden</h2>
-              <p>Frontend Web Developer</p>
+              <p>Frontend Developer</p>
             </div>
             <div className="about-text">
               <p>

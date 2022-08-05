@@ -61,7 +61,7 @@ class Skills extends Component {
             data-aos-duration="1000"
           >
             <h2>Skills</h2>
-            <p>Programming Languages and Frameworks i am skilled with.</p>
+            <p>My Tech Stack</p>
           </div>
           <div className="skills-area">
             {this.state.skills.map((skill) => (

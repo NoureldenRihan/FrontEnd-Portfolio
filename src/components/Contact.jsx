@@ -37,7 +37,6 @@ class Contact extends Component {
               data-aos-duration="1200"
             >
               <ul>
-                <li>Mohandessein, Giza, Egypt</li>
                 <li>
                   <a href="mailto:noureldenrihan2002@gmail.com">
                     noureldenrihan2002@gmail.com
