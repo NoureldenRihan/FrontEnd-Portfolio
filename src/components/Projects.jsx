@@ -8,15 +8,6 @@ class Projects extends Component {
       projectData: [
         {
           id: 1,
-          title: "Ultra Brand",
-          desc: "Watches brand website",
-          techs: "HTML5, CSS3, JS, React, Redux, Netlify",
-          link: "https://ultra-brand.netlify.app",
-          github: "https://github.com/NoureldenRihan2002/Ultra-Brand",
-          img: "/images/Ultra-Brand.PNG",
-        },
-        {
-          id: 2,
           title: "GemGlobe",
           desc: "GemGlobe Instagram Clone",
           techs: "JS, SCSS, NextJS, JSX, Vercel",
@@ -25,7 +16,25 @@ class Projects extends Component {
           img: "/images/GemGlobe.png",
         },
         {
+          id: 2,
+          title: "Ultra Brand",
+          desc: "Watches brand website",
+          techs: "CSS3, JS, React, Redux, Netlify",
+          link: "https://ultra-brand.netlify.app",
+          github: "https://github.com/NoureldenRihan2002/Ultra-Brand",
+          img: "/images/Ultra-Brand.PNG",
+        },
+        {
           id: 3,
+          title: "Effortless Charts",
+          desc: "Chart Maker Website",
+          techs: "React, Redux, CSS3, JS, Firebase",
+          link: "https://effortless-charts.web.app/",
+          github: "https://github.com/NoureldenRihan2002/Effortless-Chart",
+          img: "/images/Effortless-Charts.png",
+        },
+        {
+          id: 4,
           title: "RihanCGI",
           desc: "3D Sculpting tools website",
           techs: "HTML5, CSS3, JS, Bootstrap, Firebase",
@@ -34,7 +43,7 @@ class Projects extends Component {
           img: "/images/RihanCGI.PNG",
         },
         {
-          id: 4,
+          id: 5,
           title: "Pizza",
           desc: "Pizza restaurant website",
           techs: "HTML5, CSS3, JS, API, NodeJS, Github",
@@ -44,7 +53,7 @@ class Projects extends Component {
           img: "/images/Pizza.PNG",
         },
         {
-          id: 5,
+          id: 6,
           title: "Weather Daily",
           desc: "Weather Daily website",
           techs: "HTML5, CSS3, JS, API, Firebase",
