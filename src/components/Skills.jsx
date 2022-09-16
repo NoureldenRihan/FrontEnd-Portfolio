@@ -23,23 +23,25 @@ class Skills extends Component {
         },
         {
           id: 4,
+          icon: <i className="devicon-typescript-plain"></i>,
+          name: "TypeScript",
+        },
+
+        {
+          id: 5,
           icon: <i className="icon devicon-git-plain"></i>,
           name: "Git",
         },
         {
-          id: 5,
-          icon: <i className="icon devicon-html5-plain-wordmark"></i>,
-          name: "HTML5",
-        },
-        {
           id: 6,
-          icon: <i className="icon devicon-css3-plain-wordmark"></i>,
-          name: "CSS3",
-        },
-        {
-          id: 7,
           icon: <i className="icon devicon-bootstrap-plain"></i>,
           name: "Bootstrap",
+        },
+
+        {
+          id: 7,
+          icon: <i className="icon devicon-css3-plain-wordmark"></i>,
+          name: "CSS3",
         },
         {
           id: 8,
