@@ -23,7 +23,7 @@ class Skills extends Component {
         },
         {
           id: 4,
-          icon: <i className="devicon-typescript-plain"></i>,
+          icon: <i className="icon devicon-typescript-plain"></i>,
           name: "TypeScript",
         },
 
