@@ -6,7 +6,7 @@ class Resume extends Component {
     return (
       <div className="resume-holder">
         <a
-          href="Nourelden_Rihan_Frontend_Resume.pdf"
+          href="Nourelden Rihan CV.pdf"
           download="Nourelden Rihan Frontend Resume"
         >
           <button
