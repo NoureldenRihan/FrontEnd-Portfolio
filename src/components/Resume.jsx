@@ -6,14 +6,14 @@ class Resume extends Component {
     return (
       <div className="resume-holder">
         <a
-          href="Nourelden Rihan CV.pdf"
-          download="Nourelden Rihan Frontend Resume"
+          href="NoureldenRihanResume.pdf"
+          download="NoureldenRihanFrontendResume"
         >
           <button
             className="resume"
             data-aos="fade-in"
-            data-aos-delay="2000"
-            data-aos-duration="2500"
+            data-aos-delay="1800"
+            data-aos-duration="2300"
           >
             Download Resume
           </button>
