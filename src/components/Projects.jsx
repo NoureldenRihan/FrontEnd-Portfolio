@@ -17,6 +17,15 @@ class Projects extends Component {
         },
         {
           id: 2,
+          title: "Stylized Facebook",
+          desc: "Facebook Dark Mode Clone",
+          techs: "React, CSS3, JS, Firebase",
+          link: "https://stylizedfacebook.web.app/",
+          github: "https://github.com/NoureldenRihan2002/Stylized-Facebook",
+          img: "/images/StylizedFacebook.png",
+        },
+        {
+          id: 3,
           title: "CSS Fun",
           desc: "CSS Tricks website",
           techs: "React, CSS3, JS, Firebase",
@@ -25,7 +34,7 @@ class Projects extends Component {
           img: "/images/CSS-Fun.png",
         },
         {
-          id: 3,
+          id: 4,
           title: "Ultra Brand",
           desc: "Watches brand website",
           techs: "CSS3, JS, React, Redux, Netlify",
@@ -34,7 +43,7 @@ class Projects extends Component {
           img: "/images/Ultra-Brand.PNG",
         },
         {
-          id: 4,
+          id: 5,
           title: "Effortless Charts",
           desc: "Chart Maker Website",
           techs: "React, Redux, CSS3, JS, Firebase",
@@ -43,7 +52,7 @@ class Projects extends Component {
           img: "/images/Effortless-Charts.png",
         },
         {
-          id: 5,
+          id: 6,
           title: "RihanCGI",
           desc: "3D Sculpting tools website",
           techs: "HTML5, CSS3, JS, Bootstrap, Firebase",
@@ -52,7 +61,7 @@ class Projects extends Component {
           img: "/images/RihanCGI.PNG",
         },
         {
-          id: 6,
+          id: 7,
           title: "Pizza",
           desc: "Pizza restaurant website",
           techs: "HTML5, CSS3, JS, API, NodeJS, Github",
@@ -62,7 +71,7 @@ class Projects extends Component {
           img: "/images/Pizza.PNG",
         },
         {
-          id: 7,
+          id: 8,
           title: "Weather Daily",
           desc: "Weather Daily website",
           techs: "HTML5, CSS3, JS, API, Firebase",
