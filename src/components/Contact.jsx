@@ -38,8 +38,8 @@ class Contact extends Component {
             >
               <ul>
                 <li>
-                  <a href="mailto:noureldenrihan2002@gmail.com">
-                    noureldenrihan2002@gmail.com
+                  <a href="mailto:noureldenrihan@gmail.com">
+                    noureldenrihan@gmail.com
                   </a>
                 </li>
                 <li>+20 111-650-6071</li>

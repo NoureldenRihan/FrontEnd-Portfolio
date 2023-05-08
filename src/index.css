@@ -280,7 +280,7 @@ button {
 
 .about .me img:hover {
   border-radius: 50%;
-  box-shadow: 2px 2px 50px gray;
+  box-shadow: 2px 2px 50px var(--main-alt-color);
 }
 
 .about .content {

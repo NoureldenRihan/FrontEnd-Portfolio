@@ -40,8 +40,8 @@ class About extends Component {
                 ReactJS, NextJS etc.
               </p>
               <p>
-                Along side Medical School, Learning different hobbies has always
-                been a thrill and i am always ready for a new Adventure.
+                Loves to try out new tech tools and master them, collaborate on
+                team Projects, and work on extraordinary project ideas.
               </p>
               <Resume />
             </div>
