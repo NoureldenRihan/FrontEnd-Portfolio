@@ -15,7 +15,7 @@ class Skill extends Component {
         data-aos-duration="800"
       >
         <div className="skill">
-          {this.props.icon}
+          <img src={this.props.icon} />
           <h4>{this.props.name}</h4>
         </div>
       </div>

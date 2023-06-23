@@ -111,22 +111,39 @@ button {
   color: var(--gray-color);
 }
 
-.social-links a {
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
   margin: 10px;
   padding: 12px;
-  font-size: 20px;
   background-color: #eeeeee;
   transition: var(--low-transition);
   color: var(--main-alt-color);
   border-radius: 100%;
   cursor: pointer;
-  display: inline-block;
+  width: 50px;
+  height: 50px;
 }
 
-.social-links a:hover {
+.social-link:hover {
   color: var(--light-color);
   background-color: var(--main-alt-color);
   transform: scale(1.1) translateY(-5px);
+}
+
+.social-link img {
+  width: 25px;
+  height: 25px;
+  transition: var(--low-transition);
+}
+
+.social-link:hover img {
+  filter: invert(1);
 }
 
 /* End Components */
@@ -224,6 +241,16 @@ button {
   transition: all ease-in-out 0.4s;
 }
 
+.skill img {
+  width: 50%;
+  height: 50%;
+  transition: 0.3s;
+}
+
+.skill:hover img {
+  filter: invert(1);
+}
+
 .skill .icon {
   color: var(--main-alt-color);
   padding: 30px;
@@ -248,6 +275,13 @@ button {
   transform: scale(1.02) translateY(-5px);
 }
 
+@media (max-width: 767px) {
+  .skill img {
+    width: 25%;
+    height: 25%;
+  }
+}
+
 /* End Skill.jsx */
 /* Start About.jsx */
 
@@ -270,7 +304,7 @@ button {
   align-items: center;
 }
 
-.about .me img {
+.about .me .meImg {
   width: 350px;
   border-radius: 5px;
   margin-bottom: 22px;
@@ -278,7 +312,7 @@ button {
   position: relative;
 }
 
-.about .me img:hover {
+.about .me .meImg:hover {
   border-radius: 50%;
   box-shadow: 2px 2px 50px var(--main-alt-color);
 }

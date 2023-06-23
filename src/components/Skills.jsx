@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import Skill from "./Skill";
+import nextjs from "../SVGs/nextjs.svg";
+import reactjs from "../SVGs/reactjs.svg";
+import javascript from "../SVGs/javascript.svg";
+import typescript from "../SVGs/typescript.svg";
+import git from "../SVGs/git.svg";
+import bootstrap from "../SVGs/bootstrap.svg";
+import css from "../SVGs/css.svg";
+import sass from "../SVGs/sass.svg";
 
 class Skills extends Component {
   constructor(props) {
@@ -8,44 +16,44 @@ class Skills extends Component {
       skills: [
         {
           id: 1,
-          icon: <i className="icon devicon-nextjs-original-wordmark"></i>,
+          icon: nextjs,
           name: "NextJS",
         },
         {
           id: 2,
-          icon: <i className="icon devicon-react-original"></i>,
+          icon: reactjs,
           name: "ReactJS",
         },
         {
           id: 3,
-          icon: <i className="icon devicon-javascript-plain"></i>,
+          icon: javascript,
           name: "JavaScript",
         },
         {
           id: 4,
-          icon: <i className="icon devicon-typescript-plain"></i>,
+          icon: typescript,
           name: "TypeScript",
         },
 
         {
           id: 5,
-          icon: <i className="icon devicon-git-plain"></i>,
+          icon: git,
           name: "Git",
         },
         {
           id: 6,
-          icon: <i className="icon devicon-bootstrap-plain"></i>,
+          icon: bootstrap,
           name: "Bootstrap",
         },
 
         {
           id: 7,
-          icon: <i className="icon devicon-css3-plain-wordmark"></i>,
+          icon: css,
           name: "CSS3",
         },
         {
           id: 8,
-          icon: <i className="icon devicon-sass-original"></i>,
+          icon: sass,
           name: "SASS",
         },
       ],

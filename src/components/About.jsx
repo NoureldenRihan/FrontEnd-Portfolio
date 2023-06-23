@@ -19,6 +19,7 @@ class About extends Component {
             data-aos-duration="1200"
           >
             <img
+              className="meImg"
               src={window.location.origin + "/images/profile-image.jpg"}
               alt="Nourelden Rihan"
             />
