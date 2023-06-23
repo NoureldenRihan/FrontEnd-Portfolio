@@ -28,6 +28,7 @@ body {
   font-family: sans-serif;
   width: 100vw;
   background-color: var(--common-color);
+  overflow-x: hidden;
 }
 
 ul {
@@ -348,6 +349,10 @@ button {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .about .me .meImg {
+    width: 275px;
   }
 }
 
