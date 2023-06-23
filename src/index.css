@@ -354,6 +354,10 @@ button {
   .about .me .meImg {
     width: 275px;
   }
+
+  .about .content .section-heading h2 {
+    font-size: 25px;
+  }
 }
 
 /* End About.jsx */
@@ -375,6 +379,13 @@ button {
   background-color: var(--main-alt-color);
   font-size: 20px;
   border-radius: 9999px;
+}
+
+@media (max-width: 767px) {
+  .resume {
+    padding: 15px 60px;
+    font-size: 15px;
+  }
 }
 
 /* End Resume.jsx */
@@ -411,6 +422,7 @@ button {
 .project {
   position: relative;
   cursor: pointer;
+  width: 100%;
 }
 
 .project::before {
@@ -442,7 +454,7 @@ button {
 }
 
 .project .data-overlay h4 {
-  padding: 10px;
+  padding: 8px;
   color: var(--light-color);
   font-size: 18px;
 }
@@ -450,7 +462,7 @@ button {
   font-size: 27px;
 }
 .project .data-overlay h2 {
-  padding: 5px;
+  padding: 4px;
   color: var(--light-color);
   font-size: 20px;
 }
@@ -517,18 +529,21 @@ button {
 }
 
 @media (max-width: 767px) {
+  .project {
+    width: 90%;
+  }
   .project .data-overlay {
+    flex-wrap: nowrap;
     padding: 7px;
   }
-
   .project .data-overlay h4 {
-    font-size: 12px;
+    font-size: 11px;
   }
   .project .data-overlay h4.title {
-    font-size: 17px;
+    font-size: 16px;
   }
   .project .data-overlay h2 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .project .data-overlay .buttons {
@@ -538,8 +553,8 @@ button {
 
   .project .data-overlay .buttons .githubLink button,
   .project .data-overlay .buttons .websiteLink button {
-    padding: 5px 8px;
-    font-size: 14px;
+    padding: 4px 7px;
+    font-size: 13px;
     font-weight: 400;
     margin-right: 3px;
   }
