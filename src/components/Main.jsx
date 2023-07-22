@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -13,24 +13,17 @@ AOS.init({
   useClassNames: false,
 });
 
-class Main extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        <Landing />
-        <Skills />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </React.Fragment>
-    );
-  }
+function Main() {
+  return (
+    <>
+      <Landing />
+      <Skills />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
 export default Main;
