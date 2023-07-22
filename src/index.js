@@ -4,9 +4,4 @@ import "./index.css";
 import "animate.css";
 import Main from "./components/Main";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Main />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<Main />, document.getElementById("root"));
