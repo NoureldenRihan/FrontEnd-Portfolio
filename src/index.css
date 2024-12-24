@@ -571,10 +571,10 @@ button {
 }
 
 .contact .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
 }
 
 .contact .details ul {
@@ -604,10 +604,7 @@ button {
 
 @media (max-width: 767px) {
   .contact .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 90vw;
   }
 }
 

@@ -31,7 +31,7 @@ function Form() {
           name="_next"
           value="https://nourelden-rihan.web.app/"
         />
-        <button id="submit" type="submit" name="submit">
+        <button id="submit" type="submit">
           Send Message
         </button>
       </form>
